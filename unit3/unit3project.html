@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>image gallery</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<!-- Start of body-->
+<body>
+<a href = "/index.html"> Home</a>
+<!-- Header / Title-->
+<header>
+  <h1>Dynamic Image Gallery</h1>
+  <p>Resize the browser window to change the images.</p>
+  <hr>
+</header>
+
+  <!--Start of main-->
+<main>
+ <h3>TLOU Infected</h3>
+  <picture>
+    <source media="(min-width:769px)" srcset="/unit3/images/infected4.jpg">
+    <source media="(min-width:426px)" srcset="/unit3/images/infected3.jpg">
+    <source media="(min-width:321px)" srcset="/unit3/images/infected2.jpg">
+    <img src="/unit3/images/infected1.jpg" alt="Infected" height="200" width="200"
+  </picture>
+
+  <hr>
+
+  <h3>Ants</h3>
+  <picture>
+    <source media="(min-width:769px)" srcset="/unit3/images/ants4.jpg">
+    <source media="(min-width:426px)" srcset="/unit3/images/ants3.jpg">
+    <source media="(min-width:321px)" srcset="/unit3/images/ants2.jpg">
+    <img src="/unit3/images/ants1.jpg" alt="Ants" height="200" width="200"
+  </picture>
+  <hr>
+
+  <h3>Bands</h3>
+    <picture>
+    <source media="(min-width:769px)" srcset="/unit3/images/bands4.jpg">
+    <source media="(min-width:426px)" srcset="/unit3/images/bands3.jpg">
+    <source media="(min-width:321px)" srcset="/unit3/images/bands2.jpg">
+    <img src="/unit3/images/bands1.jpg" alt="Bands" height="200" width="200"
+  </picture>
+</main>
+
+  <!--Footer-->
+<footer>
+  <p><i>&copy;2022 Reese Jones</i></p>
+</footer>
+</body>
+</html>
