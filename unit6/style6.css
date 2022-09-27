@@ -1,0 +1,50 @@
+body {background-image: url(/unit6/images/8bitbackground.gif);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      Background-position: center;
+      }
+
+
+
+
+main {background-color:purple;
+      color:white;
+      padding: 10px;
+      
+     }
+
+
+
+ul img {width: 60px;
+        height: 40px;
+        margin-left: 15%;}
+
+ul li {list-style-image: url(/unit6/images/simpsons32.gif);}
+
+img {height: 300px;
+     width: auto;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     }
+
+#wrapper {width: 60%;
+          margin: auto;
+          margin-top: 30px;
+          }
+
+.border {border-style: solid;
+            border-width: 9px 9px 9px 9px;
+            border-radius: 20px 20px 20px 20px;
+            border-image: url(/unit6/images/border.jpg) 9 9 9 9 round round;}
+
+.borderimg {border-style: solid;
+            border-width: 9px 9px 9px 9px;
+            border-radius: 20px 20px 20px 20px;
+            border-image: url(/unit6/images/border.jpg) 9 9 9 9 round round;
+            height: 300px;
+            width: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;}
