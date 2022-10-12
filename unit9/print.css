@@ -1,0 +1,24 @@
+
+img{
+  display:none;
+}
+
+body {
+  font-size:1.25em;
+       }
+
+#sidebar{ 
+          display:none; }
+
+#nav { 
+       display:none;
+       }
+
+*{background-color:white;
+color:black;
+}
+
+
+  a::after{
+    content: " (" attr(href) ") ";
+  }
