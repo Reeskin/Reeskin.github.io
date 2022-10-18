@@ -1,0 +1,41 @@
+img {
+  height: 150px;
+  width: 150px;
+}
+
+h1 {
+  text-align: center;
+  color: brown;
+  background-color: darkkhaki;
+}
+
+th{
+  background-color: brown;
+  color: white;
+}
+
+table {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  
+}
+
+tr:hover {background-color: darkkhaki;}
+
+.loaf {
+  width: 400px;
+  height: 350px;
+}
+
+p {
+  text-align: center;
+}
