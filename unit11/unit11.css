@@ -1,0 +1,78 @@
+th {
+  background-color: darkseagreen;
+  border: 2px solid black;
+  border-collapse: collapse;
+
+}
+
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+tr:hover {
+    background-color: darkkhaki;
+    color: white;
+  }
+
+h1 {
+  text-align: center;
+  
+  
+}
+
+#h1survey {
+  text-align: center;
+}
+
+table {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  table-layout: fixed;
+}
+
+#info {
+  background-color: khaki;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#feedback {
+  background-color: khaki;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#birthday {
+  background-color: khaki;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: darkseagreen;
+  color: black;
+}
+
+.info {
+  text-align: center;
+  border-style: double;
+  border-color: darkgreen;
+  background-color: darkseagreen;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.return {
+  text-align: center;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
